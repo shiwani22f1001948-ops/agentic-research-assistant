@@ -39,7 +39,7 @@ if __name__ == "__main__":
         db = build_vectorstore(chunks)
         print(f"Built vector store with {len(chunks)} chunks")
 
-    query = "How do I bake a cake?"
+    query = "How does corrective RAG evaluate retrieved documents?"
     results = db.similarity_search_with_score(query, k=3)
 
     for i, (doc, score) in enumerate(results, 1):
