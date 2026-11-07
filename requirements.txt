@@ -6,3 +6,4 @@ langchain-chroma
 sentence-transformers
 langchain-google-genai
 python-dotenv
+langgraph
